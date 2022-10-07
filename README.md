@@ -62,7 +62,7 @@ SharpMapExec.exe
         SharpMapExec.exe tgtdeleg
 
     --- Ldap ---
-        SharpMapExec.exe ntlm domain /user:USER /password:PASSWORD /domain:DOMAIN /dc:DC /m:MODULE
+        SharpMapExec.exe ntlm ldap /user:USER /password:PASSWORD /domain:DOMAIN /dc:DC /m:MODULE
         SharpMapExec.exe kerberos ldap </user:USER /password:PASSWORD /domain:DOMAIN /dc:DC /m:MODULE | /ticket:TICKET.Kirbi>
 
        Ldap modules
